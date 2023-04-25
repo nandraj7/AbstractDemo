@@ -87,7 +87,9 @@ namespace AbstractDemo
 
         }
    
+        public void DemoOfReferenceCall(Person person)
+        {
+            person.Display();  
+        }
     }
-
-
 }
